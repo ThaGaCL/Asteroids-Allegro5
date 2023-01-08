@@ -2,6 +2,9 @@
 
 SPRITES sprites;
 
+const int ALIEN_W[] = {14,13,45};
+const int ALIEN_H[] = {9,10,27};
+
 // Pega os sprites da spritesheet
 ALLEGRO_BITMAP* sprite_grab(int x, int y, int w, int h)
 { 
