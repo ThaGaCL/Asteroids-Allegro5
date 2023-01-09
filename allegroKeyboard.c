@@ -1,12 +1,14 @@
 #include "allegroKeyboard.h"
 
-void keyboard_init(unsigned char* key)
+unsigned char key[ALLEGRO_KEY_MAX];
+
+void keyboard_init()
 {
     int size = sizeof(key);
     memset(key, 0, size);
 }
 
-void keyboard_update(unsigned char* key, ALLEGRO_EVENT* event)
+void keyboard_update(ALLEGRO_EVENT* event)
 {
     switch(event->type)
     {

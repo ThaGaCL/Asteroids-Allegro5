@@ -4,6 +4,7 @@
 #include "allegroUtil.h"
 #include "asteroidsLib.h"
 #include "allegroAudio.h"
+#include "allegroDisplay.h"
 
 #define FX_N 128
 
@@ -26,6 +27,5 @@ void fx_add(bool spark, int x, int y);
 void fx_update();
 
 void fx_draw();
-
 
 #endif

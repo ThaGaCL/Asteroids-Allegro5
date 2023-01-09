@@ -54,7 +54,7 @@ extern SPRITES sprites;
 ALLEGRO_BITMAP* sprite_grab(int x, int y, int w, int h);
 
 // Inicializa o Bitmap dos sprites
-void sprintes_init();
+void sprites_init();
 
 // Libera o Bitmap dos sprites
 void sprites_deinit();
