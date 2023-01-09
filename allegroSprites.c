@@ -14,7 +14,7 @@ ALLEGRO_BITMAP* sprite_grab(int x, int y, int w, int h)
 }
 
 // Inicializa o Bitmap dos sprites
-void sprintes_init()
+void sprites_init()
 {
     sprites._sheet = al_load_bitmap("spritesheet.png");
     mustInit(sprites._sheet, "spritesheet");
