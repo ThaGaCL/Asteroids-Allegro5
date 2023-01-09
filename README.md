@@ -1,4 +1,4 @@
-# Asteroids-Allegro5
+# Asteroids-Allegro5 👾 
 
 # Controles:
 * Setas do teclado - Movimento
