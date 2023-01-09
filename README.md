@@ -2,4 +2,4 @@
 
 # Controles:
 * Setas do teclado - Movimento
-* X - Atirar
+* X - PEW PEW PEW PEW
